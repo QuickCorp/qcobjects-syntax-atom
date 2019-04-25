@@ -1,0 +1,27 @@
+{
+  "name": "qcobjects-syntax",
+  "main": "./lib/qcobjects-syntax",
+  "version": "0.0.001",
+  "description": "A Simple Plugin to integrate QCObjects syntax in Atom",
+  "keywords": ["class",
+    "javascript",
+    "qcobjects",
+    "syntax",
+    "mvc",
+    "framework",
+    "sdk",
+    "middleware",
+    "ui",
+    "ux"
+  ],
+  "activationCommands": {
+    "atom-workspace": "qcobjects-syntax:toggle"
+  },
+  "repository": "https://github.com/QuickCorp/qcobjects-syntax-atom.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
