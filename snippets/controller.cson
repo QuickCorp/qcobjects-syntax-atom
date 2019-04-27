@@ -1,0 +1,20 @@
+'.text.html':
+  'QCObjects HTML Controller Class Attribute':
+    'prefix': 'controllerClass'
+    'body': 'controllerClass="${1}"'
+'.source.js':
+  'QCObjects JS Controller':
+    'prefix': 'Controller'
+    'description':'Add extra features to your components using a controller Class '
+    'descriptionMoreURL':'https://qcobjects.dev'
+    'body': """
+Class(\'${1}\',Controller,{
+  dependencies:[],
+  component:null,
+  _new_:function (o){
+    this.__new__(o);
+    var controller=this;
+    //TODO: Implement
+  }
+})
+"""

@@ -14,6 +14,11 @@
     "ui",
     "ux"
   ],
+  "author": {
+    "name": "Jean Machuca",
+    "email": "correojean@gmail.com",
+    "url": "https://qcobjects.dev"
+  },
   "activationCommands": {
     "atom-workspace": "qcobjects-syntax:toggle"
   },

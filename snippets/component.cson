@@ -1,0 +1,19 @@
+'.text.html':
+  'QCObjects HTML Component':
+    'prefix': 'component'
+    'body': '<component name="${1}" controllerClass="${2}" viewClass="${3}" effectClass="${4}"></component>'
+    'description':'The component tag is a smart way to implement a QCObjects Component'
+    'descriptionMoreURL':'https://qcobjects.dev'
+'.source.js':
+  'QCObjects JS Class for Components':
+    'prefix': 'Component'
+    'description':'The QCObjects Class Component lets you add a component object to any other DOM element'
+    'descriptionMoreURL':'https://qcobjects.dev'
+    'body': """
+Class(\'${1}\',Component,{
+  name:\'${2}\',
+  cached:false,
+  controller:${3:componentInstance},
+  view:${4:viewInstance}
+})
+"""
