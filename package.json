@@ -1,9 +1,10 @@
 {
   "name": "qcobjects-syntax",
   "main": "./lib/qcobjects-syntax",
-  "version": "0.0.001",
+  "version": "0.0.1",
   "description": "A Simple Plugin to integrate QCObjects syntax in Atom",
-  "keywords": ["class",
+  "keywords": [
+    "class",
     "javascript",
     "qcobjects",
     "syntax",
@@ -27,6 +28,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
