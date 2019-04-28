@@ -4,10 +4,10 @@
     'body': """
 Package(\'${1:packageName}\',[
   Class(\'${2:ClassName}\',${3:InheritClass},{
-    ${4:propertyName1}:${5:propertyValue1},
+    ${4:propertyName1}:${5:'propertyValue1'},
   }),
   Class(\'${2:ClassName}\',${3:InheritClass},{
-    ${4:propertyName1}:${5:propertyValue1},
+    ${4:propertyName1}:${5:'propertyValue1'},
   }),
 ]);
 """
